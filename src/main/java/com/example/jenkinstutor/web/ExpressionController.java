@@ -18,7 +18,7 @@ public class ExpressionController {
         this.expressionService = expressionService;
     }
 
-    @GetMapping("/")
+    @GetMapping("/evaluate")
     public String evaluate(@RequestParam("exp") String expression){
         return expressionService.evaluate(expression);
     }
