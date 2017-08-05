@@ -9,7 +9,7 @@ import static org.junit.Assert.assertTrue;
 @RunWith(JUnit4.class)
 public class FailingTest {
     @Test
-    public void name() throws Exception {
+    public void test() throws Exception {
         assertTrue(false);
     }
 }
